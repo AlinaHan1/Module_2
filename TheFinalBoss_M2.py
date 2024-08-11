@@ -7,10 +7,10 @@ def number():
 
 n = number()
 #print(n)
-res = ''
+result = ''
 for i in range(1, n):
     for b in range(i + 1, n):
         if n % (i + b) == 0:
-            res += str(i)
-            res += str(b)
-print(n, '-', res)
+            result += str(i)
+            result += str(b)
+print(n, '-', result)
